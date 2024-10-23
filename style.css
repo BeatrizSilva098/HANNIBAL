@@ -1,0 +1,82 @@
+html, body {
+  background-color:black;
+  color:white;
+ font-family: "Protest Strike", sans-serif;
+  margin: 1px;
+  margin-bottom: 30px;
+}
+
+.inicio{
+  background: rgb(134,86,134);
+  font-size: 35px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  border-radius:50px;
+  box-shadow: 2px 5px 5px gray;
+}
+
+header{
+  font-family: "Sixtyfour Convergence", serif;
+  color: red;
+  display:flex;
+  border-bottom: solid 1px rgb(249,249,252);
+  position: relative;
+  margin: 20px;
+  font-size: 80px;
+}
+
+p{
+  text-align: justify;
+}
+
+.inicio{
+  background: #691D17;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+}
+
+.video{
+  margin-right: 50px;
+}
+
+
+
+.alinha{
+  align-cont: center;
+}
+
+  .clipes{
+    display: flex;
+    overflow-x:auto;
+    gap: 10px;
+  }
+  
+  .clipes img{
+    height: 200px;
+    opacity: 0.5;
+  }
+
+  .outros{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:30px;
+    color:rgb(134,86,134);
+    font-weight: 700;
+  }
+
+  .outros img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(182,41,65);
+    box-shadow: 2px 5px 5px rgb(78,9,9);
+  }
+  
+  header img{
+    position: relative;
+    z-index: -1;
+    margin-left: 400px;
+  }
+  
+  
